@@ -13,7 +13,7 @@ def teste():
 
 data_atual = date.today()
 hora = datetime.now().time()
-
+## TESTE
 
 def carrega_pacientes():
     serv = banco.buscar_pacientes()
