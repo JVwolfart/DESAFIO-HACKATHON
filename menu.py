@@ -52,6 +52,7 @@ if __name__ == '__main__':
     menu_escalas = uic.loadUi('menu_escalas.ui')
     pacientes = uic.loadUi('pacientes.ui')
     menu_paciente = uic.loadUi('menu_paciente.ui')
+    menu_cadastros = uic.loadUi('menu_cadastros.ui')
 
 
     ##BOTÕES MENU
@@ -59,6 +60,7 @@ if __name__ == '__main__':
     menu.Btn_Sair.clicked.connect(menu.close)
     menu.Btn_paciente.clicked.connect(carrega_pacientes)
     pacientes.TabelaPacientes.doubleClicked.connect(pega_paciente)
+    menu.Btn_cadastro.clicked.connect(menu_cadastros.show)
     #menu.showMaximized()
     menu.showMaximized()
     #banco.cria_tabelas()
