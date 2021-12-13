@@ -98,7 +98,7 @@ QPushButton{
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../JP/PROJETO SALÃO/IMAGENS/trocar usuario_adobespark.png</normaloff>../JP/PROJETO SALÃO/IMAGENS/trocar usuario_adobespark.png</iconset>
+           <normaloff>IMAGENS/trocar usuario_adobespark.png</normaloff>IMAGENS/trocar usuario_adobespark.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -162,7 +162,7 @@ QPushButton{
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../JP/PROJETO SALÃO/IMAGENS/cadastro.jpeg</normaloff>../JP/PROJETO SALÃO/IMAGENS/cadastro.jpeg</iconset>
+           <normaloff>IMAGENS/cadastro.jpeg</normaloff>IMAGENS/cadastro.jpeg</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -329,7 +329,7 @@ QPushButton{
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../JP/PROJETO SALÃO/IMAGENS/Sair do sistema_adobespark.png</normaloff>../JP/PROJETO SALÃO/IMAGENS/Sair do sistema_adobespark.png</iconset>
+           <normaloff>IMAGENS/Sair do sistema_adobespark.png</normaloff>IMAGENS/Sair do sistema_adobespark.png</iconset>
          </property>
          <property name="iconSize">
           <size>
