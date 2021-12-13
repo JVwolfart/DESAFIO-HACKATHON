@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/enfermagem.ui'
+# Form implementation generated from reading ui file '/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/enfermagem.ui'
 #
 # Created by: PyQt5 UI code generator 5.14.1
 #
@@ -50,7 +50,7 @@ class Ui_Janela_principal(object):
 "}")
         self.Btn_Mudar_usuario.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/trocar usuario_adobespark.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/trocar usuario_adobespark.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_Mudar_usuario.setIcon(icon)
         self.Btn_Mudar_usuario.setIconSize(QtCore.QSize(100, 100))
         self.Btn_Mudar_usuario.setObjectName("Btn_Mudar_usuario")
@@ -77,7 +77,7 @@ class Ui_Janela_principal(object):
 "}")
         self.Btn_cadastro.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/cadastro.jpeg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/cadastro.jpeg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_cadastro.setIcon(icon1)
         self.Btn_cadastro.setIconSize(QtCore.QSize(100, 100))
         self.Btn_cadastro.setObjectName("Btn_cadastro")
@@ -102,7 +102,7 @@ class Ui_Janela_principal(object):
 "}")
         self.Btn_escalas.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/icone_escala.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/icone_escala.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_escalas.setIcon(icon2)
         self.Btn_escalas.setIconSize(QtCore.QSize(120, 100))
         self.Btn_escalas.setObjectName("Btn_escalas")
@@ -128,7 +128,7 @@ class Ui_Janela_principal(object):
 "}")
         self.Btn_paciente.setText("")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/1100026-homem-em-on-line-consulta-de-saude-com-doutor-em-computador-laptop-isometrico-kit-medico-vetor.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon3.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/1100026-homem-em-on-line-consulta-de-saude-com-doutor-em-computador-laptop-isometrico-kit-medico-vetor.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_paciente.setIcon(icon3)
         self.Btn_paciente.setIconSize(QtCore.QSize(180, 100))
         self.Btn_paciente.setObjectName("Btn_paciente")
@@ -155,7 +155,7 @@ class Ui_Janela_principal(object):
 "}")
         self.Btn_Sair.setText("")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/Sair do sistema_adobespark.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon4.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/Sair do sistema_adobespark.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_Sair.setIcon(icon4)
         self.Btn_Sair.setIconSize(QtCore.QSize(100, 100))
         self.Btn_Sair.setObjectName("Btn_Sair")
@@ -190,7 +190,7 @@ class Ui_Janela_principal(object):
         self.verticalLayout_3.setObjectName("verticalLayout_3")
         self.label_2 = QtWidgets.QLabel(self.frame_4)
         self.label_2.setText("")
-        self.label_2.setPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/20200902_enfermagem.jpg"))
+        self.label_2.setPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/20200902_enfermagem.jpg"))
         self.label_2.setScaledContents(True)
         self.label_2.setObjectName("label_2")
         self.verticalLayout_3.addWidget(self.label_2)

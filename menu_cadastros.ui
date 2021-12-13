@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>639</width>
+    <width>430</width>
     <height>529</height>
    </rect>
   </property>
@@ -92,8 +92,8 @@ QPushButton{
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>360</y>
+     <x>50</x>
+     <y>370</y>
      <width>111</width>
      <height>91</height>
     </rect>
@@ -111,8 +111,8 @@ QPushButton{
   <widget class="QPushButton" name="Btn_cad_escalas">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>270</y>
+     <x>40</x>
+     <y>280</y>
      <width>132</width>
      <height>88</height>
     </rect>
@@ -144,64 +144,6 @@ QPushButton{
    <property name="iconSize">
     <size>
      <width>140</width>
-     <height>100</height>
-    </size>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_4">
-   <property name="geometry">
-    <rect>
-     <x>50</x>
-     <y>380</y>
-     <width>121</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Prescrição de escalas</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-   <property name="wordWrap">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="Btn_prescricao">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>270</y>
-     <width>132</width>
-     <height>88</height>
-    </rect>
-   </property>
-   <property name="cursor">
-    <cursorShape>PointingHandCursor</cursorShape>
-   </property>
-   <property name="toolTip">
-    <string>Prescrição de Escalas</string>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton:hover {   
-    border: 20px solid yellow;
-    border-radius: 45px;   
-   
-}
-QPushButton{   
-    background-color:rgb(238, 238, 236);
-}</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>IMAGENS/prescricao_de_escalas.png</normaloff>IMAGENS/prescricao_de_escalas.png</iconset>
-   </property>
-   <property name="iconSize">
-    <size>
-     <width>120</width>
      <height>100</height>
     </size>
    </property>
@@ -271,8 +213,8 @@ QPushButton{
   <widget class="QPushButton" name="Btn_cad_conceitos">
    <property name="geometry">
     <rect>
-     <x>430</x>
-     <y>270</y>
+     <x>210</x>
+     <y>280</y>
      <width>132</width>
      <height>88</height>
     </rect>
@@ -311,8 +253,8 @@ QPushButton{
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>440</x>
-     <y>380</y>
+     <x>220</x>
+     <y>390</y>
      <width>111</width>
      <height>61</height>
     </rect>
