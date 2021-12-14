@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/menu_cadastros.ui'
+# Form implementation generated from reading ui file '/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/menu_cadastros.ui'
 #
 # Created by: PyQt5 UI code generator 5.14.1
 #
@@ -41,7 +41,7 @@ class Ui_menu_cadastro(object):
 "}")
         self.Btn_cad_usuarios.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/cadasro_usuario_adobespark.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/cadasro_usuario_adobespark.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_cad_usuarios.setIcon(icon)
         self.Btn_cad_usuarios.setIconSize(QtCore.QSize(120, 100))
         self.Btn_cad_usuarios.setObjectName("Btn_cad_usuarios")
@@ -64,7 +64,7 @@ class Ui_menu_cadastro(object):
 "}")
         self.Btn_cad_escalas.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/cadastro_de_escalas.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/cadastro_de_escalas.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_cad_escalas.setIcon(icon1)
         self.Btn_cad_escalas.setIconSize(QtCore.QSize(140, 100))
         self.Btn_cad_escalas.setObjectName("Btn_cad_escalas")
@@ -88,7 +88,7 @@ class Ui_menu_cadastro(object):
 "}")
         self.Btn_cad_pacientes.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/cadastro_de_pacientes.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/cadastro_de_pacientes.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_cad_pacientes.setIcon(icon2)
         self.Btn_cad_pacientes.setIconSize(QtCore.QSize(140, 100))
         self.Btn_cad_pacientes.setObjectName("Btn_cad_pacientes")
@@ -106,7 +106,7 @@ class Ui_menu_cadastro(object):
 "}")
         self.Btn_cad_conceitos.setText("")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/cadastro_de_conceitos.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon3.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/cadastro_de_conceitos.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_cad_conceitos.setIcon(icon3)
         self.Btn_cad_conceitos.setIconSize(QtCore.QSize(120, 100))
         self.Btn_cad_conceitos.setObjectName("Btn_cad_conceitos")
