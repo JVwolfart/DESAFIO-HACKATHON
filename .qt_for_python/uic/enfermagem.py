@@ -14,7 +14,7 @@ class Ui_Janela_principal(object):
     def setupUi(self, Janela_principal):
         Janela_principal.setObjectName("Janela_principal")
         Janela_principal.setWindowModality(QtCore.Qt.NonModal)
-        Janela_principal.resize(1032, 723)
+        Janela_principal.resize(962, 723)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Maximum, QtWidgets.QSizePolicy.Maximum)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -38,31 +38,6 @@ class Ui_Janela_principal(object):
         self.frame_2.setObjectName("frame_2")
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.frame_2)
         self.verticalLayout_2.setObjectName("verticalLayout_2")
-        self.Btn_Mudar_usuario = QtWidgets.QPushButton(self.frame_2)
-        self.Btn_Mudar_usuario.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.Btn_Mudar_usuario.setStyleSheet("QPushButton:hover {   \n"
-"    border: 20px solid yellow;\n"
-"    border-radius: 45px;   \n"
-"   \n"
-"}\n"
-"QPushButton{   \n"
-"    background-color:rgb(238, 238, 236);\n"
-"}")
-        self.Btn_Mudar_usuario.setText("")
-        icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/trocar usuario_adobespark.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.Btn_Mudar_usuario.setIcon(icon)
-        self.Btn_Mudar_usuario.setIconSize(QtCore.QSize(100, 100))
-        self.Btn_Mudar_usuario.setObjectName("Btn_Mudar_usuario")
-        self.verticalLayout_2.addWidget(self.Btn_Mudar_usuario)
-        self.label_3 = QtWidgets.QLabel(self.frame_2)
-        font = QtGui.QFont()
-        font.setPointSize(10)
-        self.label_3.setFont(font)
-        self.label_3.setStyleSheet("color: rgb(255, 255, 255);")
-        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
-        self.label_3.setObjectName("label_3")
-        self.verticalLayout_2.addWidget(self.label_3)
         spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.verticalLayout_2.addItem(spacerItem)
         self.Btn_cadastro = QtWidgets.QPushButton(self.frame_2)
@@ -76,9 +51,9 @@ class Ui_Janela_principal(object):
 "    background-color:rgb(238, 238, 236);\n"
 "}")
         self.Btn_cadastro.setText("")
-        icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/cadastro.jpeg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.Btn_cadastro.setIcon(icon1)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/cadastro.jpeg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Btn_cadastro.setIcon(icon)
         self.Btn_cadastro.setIconSize(QtCore.QSize(100, 100))
         self.Btn_cadastro.setObjectName("Btn_cadastro")
         self.verticalLayout_2.addWidget(self.Btn_cadastro)
@@ -101,9 +76,9 @@ class Ui_Janela_principal(object):
 "    background-color:rgb(238, 238, 236);\n"
 "}")
         self.Btn_escalas.setText("")
-        icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/icone_escala.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.Btn_escalas.setIcon(icon2)
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/icone_escala.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Btn_escalas.setIcon(icon1)
         self.Btn_escalas.setIconSize(QtCore.QSize(120, 100))
         self.Btn_escalas.setObjectName("Btn_escalas")
         self.verticalLayout_2.addWidget(self.Btn_escalas)
@@ -127,9 +102,9 @@ class Ui_Janela_principal(object):
 "    background-color:rgb(238, 238, 236);\n"
 "}")
         self.Btn_paciente.setText("")
-        icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/1100026-homem-em-on-line-consulta-de-saude-com-doutor-em-computador-laptop-isometrico-kit-medico-vetor.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.Btn_paciente.setIcon(icon3)
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/1100026-homem-em-on-line-consulta-de-saude-com-doutor-em-computador-laptop-isometrico-kit-medico-vetor.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Btn_paciente.setIcon(icon2)
         self.Btn_paciente.setIconSize(QtCore.QSize(180, 100))
         self.Btn_paciente.setObjectName("Btn_paciente")
         self.verticalLayout_2.addWidget(self.Btn_paciente)
@@ -154,9 +129,9 @@ class Ui_Janela_principal(object):
 "    background-color:rgb(238, 238, 236);\n"
 "}")
         self.Btn_Sair.setText("")
-        icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/Sair do sistema_adobespark.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.Btn_Sair.setIcon(icon4)
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/Sair do sistema_adobespark.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.Btn_Sair.setIcon(icon3)
         self.Btn_Sair.setIconSize(QtCore.QSize(100, 100))
         self.Btn_Sair.setObjectName("Btn_Sair")
         self.verticalLayout_2.addWidget(self.Btn_Sair)
@@ -216,8 +191,6 @@ class Ui_Janela_principal(object):
     def retranslateUi(self, Janela_principal):
         _translate = QtCore.QCoreApplication.translate
         Janela_principal.setWindowTitle(_translate("Janela_principal", "Desafio de Ambiente e Saúde Para o Hackathon Jovem Programador"))
-        self.Btn_Mudar_usuario.setToolTip(_translate("Janela_principal", "Click aqui para efetuar a troca de Usuário"))
-        self.label_3.setText(_translate("Janela_principal", "Mudar Usuário"))
         self.Btn_cadastro.setToolTip(_translate("Janela_principal", "Abre o Menu de Cadastros"))
         self.label.setText(_translate("Janela_principal", "Cadastros"))
         self.Btn_escalas.setToolTip(_translate("Janela_principal", "Menu de Escalas"))
