@@ -132,9 +132,11 @@ if __name__ == '__main__':
     menu_cadastros = uic.loadUi('menu_cadastros.ui')
     prescricoes = uic.loadUi('prescricoes.ui')
     afericoes = uic.loadUi('afericoes.ui')
+    tutorial_braden = uic.loadUi('tutorial_braden.ui')
 
     ##BOTÕES MENU
     menu.Btn_escalas.clicked.connect(menu_escalas.show)
+    menu_escalas.Btn_braden.clicked.connect(tutorial_braden.show)
     menu.Btn_Sair.clicked.connect(menu.close)
     menu.Btn_paciente.clicked.connect(carrega_pacientes)
     pacientes.TabelaPacientes.doubleClicked.connect(pega_paciente)
