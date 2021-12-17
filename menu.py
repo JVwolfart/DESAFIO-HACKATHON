@@ -125,7 +125,7 @@ if __name__ == '__main__':
 
     qt = QtWidgets.QApplication(sys.argv)
     
-    menu = uic.loadUi('enfermagem.ui')
+    menu = uic.loadUi('novas-telas/enfermagem.ui')
     menu_escalas = uic.loadUi('menu_escalas.ui')
     pacientes = uic.loadUi('pacientes.ui')
     menu_paciente = uic.loadUi('menu_paciente.ui')
