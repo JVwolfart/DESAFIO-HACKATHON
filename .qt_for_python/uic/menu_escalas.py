@@ -165,7 +165,7 @@ class Ui_menu_cadastro(object):
 
     def retranslateUi(self, menu_cadastro):
         _translate = QtCore.QCoreApplication.translate
-        menu_cadastro.setWindowTitle(_translate("menu_cadastro", "Menu de Escalas"))
+        menu_cadastro.setWindowTitle(_translate("menu_cadastro", "Tutoriais de Escalas"))
         self.label.setText(_translate("menu_cadastro", "Escala de Nhiss"))
         self.label_2.setText(_translate("menu_cadastro", "Escala de Braden"))
         self.Btn_braden.setToolTip(_translate("menu_cadastro", "Escala Braden"))

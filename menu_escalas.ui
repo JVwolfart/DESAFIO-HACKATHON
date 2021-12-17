@@ -20,7 +20,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Menu de Escalas</string>
+   <string>Tutoriais de Escalas</string>
   </property>
   <property name="layoutDirection">
    <enum>Qt::LeftToRight</enum>
