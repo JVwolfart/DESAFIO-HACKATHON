@@ -13,14 +13,14 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Janela_principal(object):
     def setupUi(self, Janela_principal):
         Janela_principal.setObjectName("Janela_principal")
-        Janela_principal.setWindowModality(QtCore.Qt.NonModal)
+        Janela_principal.setWindowModality(QtCore.Qt.ApplicationModal)
         Janela_principal.resize(1137, 939)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Maximum, QtWidgets.QSizePolicy.Maximum)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(Janela_principal.sizePolicy().hasHeightForWidth())
         Janela_principal.setSizePolicy(sizePolicy)
-        Janela_principal.setMinimumSize(QtCore.QSize(1137, 939))
+        Janela_principal.setMinimumSize(QtCore.QSize(1080, 800))
         Janela_principal.setMaximumSize(QtCore.QSize(1500, 1400))
         Janela_principal.setStyleSheet("background-color: rgb(62, 132, 238);")
         self.centralwidget = QtWidgets.QWidget(Janela_principal)

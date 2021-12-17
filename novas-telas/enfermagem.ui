@@ -3,7 +3,7 @@
  <class>Janela_principal</class>
  <widget class="QMainWindow" name="Janela_principal">
   <property name="windowModality">
-   <enum>Qt::NonModal</enum>
+   <enum>Qt::ApplicationModal</enum>
   </property>
   <property name="geometry">
    <rect>
@@ -21,8 +21,8 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>1137</width>
-    <height>939</height>
+    <width>1080</width>
+    <height>800</height>
    </size>
   </property>
   <property name="maximumSize">
