@@ -125,6 +125,7 @@ if __name__ == '__main__':
 
     qt = QtWidgets.QApplication(sys.argv)
     
+    alerta = uic.loadUi('novas-telas/aviso.ui')
     menu = uic.loadUi('novas-telas/enfermagem.ui')
     menu_escalas = uic.loadUi('novas-telas/menu_escalas.ui')
     pacientes = uic.loadUi('novas-telas/pacientes.ui')
@@ -149,5 +150,6 @@ if __name__ == '__main__':
     afericoes.BtnSair.clicked.connect(afericoes.close)
     #menu.showMaximized()
     menu.showMaximized()
+    alerta.show()
     #banco.cria_tabelas()
     qt.exec_()
