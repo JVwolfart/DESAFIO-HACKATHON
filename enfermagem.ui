@@ -145,7 +145,7 @@ QPushButton{
           <cursorShape>PointingHandCursor</cursorShape>
          </property>
          <property name="toolTip">
-          <string>Menu de Escalas</string>
+          <string>Abre o Tutorial das Escalas</string>
          </property>
          <property name="styleSheet">
           <string notr="true">QPushButton:hover {   
@@ -183,7 +183,7 @@ QPushButton{
           <string notr="true">color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
-          <string>Escalas</string>
+          <string>Tutorial de escalas</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -196,7 +196,7 @@ QPushButton{
           <cursorShape>PointingHandCursor</cursorShape>
          </property>
          <property name="toolTip">
-          <string>Informações dos pacientes</string>
+          <string>Click para Abrir a Seleção de Pacientes </string>
          </property>
          <property name="styleSheet">
           <string notr="true">QPushButton:hover {   

@@ -146,6 +146,7 @@ if __name__ == '__main__':
     prescricoes.BtnSair.clicked.connect(prescricoes.close)
     prescricoes.TabelaEscalas.doubleClicked.connect(prescrever_escalas)
     prescricoes.TabelaPrescricao.doubleClicked.connect(excluir_prescricao)
+    afericoes.BtnSair.clicked.connect(afericoes.close)
     #menu.showMaximized()
     menu.showMaximized()
     #banco.cria_tabelas()
