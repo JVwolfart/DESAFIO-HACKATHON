@@ -50,7 +50,7 @@
      </font>
     </property>
     <property name="text">
-     <string>AVISO - Pacientes que tiveram queda nas escalas nas ultimas 24h</string>
+     <string>AVISO - Pacientes em situação crítica</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -102,7 +102,7 @@
        </rect>
       </property>
       <property name="text">
-       <string> Aderbal Ramos de Oliveira </string>
+       <string>Carlos Alberto</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_2">
@@ -150,7 +150,7 @@
        <rect>
         <x>20</x>
         <y>30</y>
-        <width>741</width>
+        <width>921</width>
         <height>20</height>
        </rect>
       </property>
@@ -168,7 +168,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>7448637</string>
+       <string>3333</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_5">
@@ -194,14 +194,151 @@
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>460</x>
         <y>50</y>
         <width>611</width>
         <height>16</height>
        </rect>
       </property>
       <property name="text">
-       <string>Escala de Braden - paciente passou de risco baixo para moderado</string>
+       <string>Escala de Braden - Risco muito alto</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>100</y>
+        <width>611</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Escala de Dor - Dor intensa</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>100</y>
+        <width>231</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Renato Dos Santos</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>3344</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>150</y>
+        <width>611</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Escala de Glassgow - Risco muito alto</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>150</y>
+        <width>231</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Paciente De Teste 1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>150</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>12345</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>10</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Valor da escala</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>50</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>8</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>100</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>8</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>150</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>4</string>
       </property>
      </widget>
     </widget>
