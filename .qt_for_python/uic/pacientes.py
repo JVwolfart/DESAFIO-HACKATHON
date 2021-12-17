@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/pacientes.ui'
+# Form implementation generated from reading ui file '/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/pacientes.ui'
 #
 # Created by: PyQt5 UI code generator 5.14.1
 #
@@ -15,11 +15,13 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.setWindowModality(QtCore.Qt.ApplicationModal)
         MainWindow.setEnabled(True)
-        MainWindow.resize(1021, 718)
+        MainWindow.resize(1211, 874)
+        MainWindow.setMinimumSize(QtCore.QSize(1211, 874))
+        MainWindow.setMaximumSize(QtCore.QSize(1211, 874))
         font = QtGui.QFont()
         font.setPointSize(14)
         MainWindow.setFont(font)
-        MainWindow.setStyleSheet("background-color: rgb(62, 132, 238);")
+        MainWindow.setStyleSheet("background-color: rgb(255, 255, 255);")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.lbl_id_user = QtWidgets.QLabel(self.centralwidget)
@@ -83,7 +85,7 @@ class Ui_MainWindow(object):
         item = QtWidgets.QTableWidgetItem()
         item.setTextAlignment(QtCore.Qt.AlignCenter)
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(8)
         font.setBold(True)
         font.setWeight(75)
         item.setFont(font)
@@ -98,6 +100,12 @@ class Ui_MainWindow(object):
         self.TabelaPacientes.horizontalHeader().setDefaultSectionSize(150)
         self.TabelaPacientes.horizontalHeader().setSortIndicatorShown(False)
         self.TabelaPacientes.horizontalHeader().setStretchLastSection(True)
+        self.label_7 = QtWidgets.QLabel(self.centralwidget)
+        self.label_7.setGeometry(QtCore.QRect(960, 650, 231, 211))
+        self.label_7.setText("")
+        self.label_7.setPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/pngwing.com (1).png"))
+        self.label_7.setScaledContents(True)
+        self.label_7.setObjectName("label_7")
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)

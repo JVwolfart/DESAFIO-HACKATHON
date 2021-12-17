@@ -126,13 +126,13 @@ if __name__ == '__main__':
     qt = QtWidgets.QApplication(sys.argv)
     
     menu = uic.loadUi('novas-telas/enfermagem.ui')
-    menu_escalas = uic.loadUi('menu_escalas.ui')
-    pacientes = uic.loadUi('pacientes.ui')
-    menu_paciente = uic.loadUi('menu_paciente.ui')
-    menu_cadastros = uic.loadUi('menu_cadastros.ui')
-    prescricoes = uic.loadUi('prescricoes.ui')
-    afericoes = uic.loadUi('afericoes.ui')
-    tutorial_braden = uic.loadUi('tutorial_braden.ui')
+    menu_escalas = uic.loadUi('novas-telas/menu_escalas.ui')
+    pacientes = uic.loadUi('novas-telas/pacientes.ui')
+    menu_paciente = uic.loadUi('novas-telas/menu_paciente.ui')
+    menu_cadastros = uic.loadUi('novas-telas/menu_cadastros.ui')
+    prescricoes = uic.loadUi('novas-telas/prescricoes.ui')
+    afericoes = uic.loadUi('novas-telas/afericoes.ui')
+    tutorial_braden = uic.loadUi('novas-telas/tutorial_braden.ui')
 
     ##BOTÕES MENU
     menu.Btn_escalas.clicked.connect(menu_escalas.show)

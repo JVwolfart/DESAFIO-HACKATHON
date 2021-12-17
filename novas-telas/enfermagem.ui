@@ -194,7 +194,7 @@ QPushButton{
           <cursorShape>PointingHandCursor</cursorShape>
          </property>
          <property name="toolTip">
-          <string>Menu de Escalas</string>
+          <string>Click para abrir o tutorial das escalas</string>
          </property>
          <property name="styleSheet">
           <string notr="true">QPushButton:hover {   
@@ -235,7 +235,7 @@ QPushButton{
           <string notr="true">color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
-          <string>Escalas</string>
+          <string>Tutorial de escalas</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>

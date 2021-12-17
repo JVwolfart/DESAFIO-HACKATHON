@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/menu_cadastros.ui'
+# Form implementation generated from reading ui file '/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/menu_cadastros.ui'
 #
 # Created by: PyQt5 UI code generator 5.14.1
 #
@@ -14,14 +14,16 @@ class Ui_menu_cadastro(object):
     def setupUi(self, menu_cadastro):
         menu_cadastro.setObjectName("menu_cadastro")
         menu_cadastro.setWindowModality(QtCore.Qt.ApplicationModal)
-        menu_cadastro.resize(430, 529)
+        menu_cadastro.resize(539, 688)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(menu_cadastro.sizePolicy().hasHeightForWidth())
         menu_cadastro.setSizePolicy(sizePolicy)
+        menu_cadastro.setMinimumSize(QtCore.QSize(539, 688))
+        menu_cadastro.setMaximumSize(QtCore.QSize(539, 688))
         menu_cadastro.setLayoutDirection(QtCore.Qt.LeftToRight)
-        menu_cadastro.setStyleSheet("background-color: rgb(52, 101, 164);")
+        menu_cadastro.setStyleSheet("background-color: rgb(255, 255, 255);")
         menu_cadastro.setInputMethodHints(QtCore.Qt.ImhMultiLine)
         self.label = QtWidgets.QLabel(menu_cadastro)
         self.label.setGeometry(QtCore.QRect(50, 170, 121, 71))
@@ -32,16 +34,19 @@ class Ui_menu_cadastro(object):
         self.Btn_cad_usuarios.setGeometry(QtCore.QRect(40, 60, 132, 88))
         self.Btn_cad_usuarios.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Btn_cad_usuarios.setStyleSheet("QPushButton:hover {   \n"
-"    border: 20px solid yellow;\n"
+"    border: 10px solid ;\n"
+"    border-color: rgb(0, 112, 179);\n"
 "    border-radius: 45px;   \n"
 "   \n"
 "}\n"
 "QPushButton{   \n"
-"    background-color:rgb(238, 238, 236);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    border-radius: 45px;\n"
+"    border-color: rgb(255, 255, 255);\n"
 "}")
         self.Btn_cad_usuarios.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/cadasro_usuario_adobespark.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/cadasro_usuario_adobespark.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_cad_usuarios.setIcon(icon)
         self.Btn_cad_usuarios.setIconSize(QtCore.QSize(120, 100))
         self.Btn_cad_usuarios.setObjectName("Btn_cad_usuarios")
@@ -54,19 +59,21 @@ class Ui_menu_cadastro(object):
         self.Btn_cad_escalas.setGeometry(QtCore.QRect(40, 280, 132, 88))
         self.Btn_cad_escalas.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Btn_cad_escalas.setStyleSheet("QPushButton:hover {   \n"
-"    border: 20px solid yellow;\n"
-"    background-color: yellow;\n"
+"    border: 10px solid ;\n"
+"    border-color: rgb(0, 112, 179);\n"
 "    border-radius: 45px;   \n"
 "   \n"
 "}\n"
 "QPushButton{   \n"
-"    background-color:rgb(238, 238, 236);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    border-radius: 45px;\n"
+"    border-color: rgb(255, 255, 255);\n"
 "}")
         self.Btn_cad_escalas.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/cadastro_de_escalas.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/cadastro_de_escalas.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_cad_escalas.setIcon(icon1)
-        self.Btn_cad_escalas.setIconSize(QtCore.QSize(140, 100))
+        self.Btn_cad_escalas.setIconSize(QtCore.QSize(100, 100))
         self.Btn_cad_escalas.setObjectName("Btn_cad_escalas")
         self.label_5 = QtWidgets.QLabel(menu_cadastro)
         self.label_5.setGeometry(QtCore.QRect(220, 170, 111, 41))
@@ -78,17 +85,19 @@ class Ui_menu_cadastro(object):
         self.Btn_cad_pacientes.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Btn_cad_pacientes.setAcceptDrops(False)
         self.Btn_cad_pacientes.setStyleSheet("QPushButton:hover {   \n"
-"    border: 20px solid yellow;\n"
-"    background-color: yellow;\n"
+"    border: 10px solid ;\n"
+"    border-color: rgb(0, 112, 179);\n"
 "    border-radius: 45px;   \n"
 "   \n"
 "}\n"
 "QPushButton{   \n"
-"    background-color:rgb(238, 238, 236);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    border-radius: 45px;\n"
+"    border-color: rgb(255, 255, 255);\n"
 "}")
         self.Btn_cad_pacientes.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/cadastro_de_pacientes.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/cadastro_de_pacientes.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_cad_pacientes.setIcon(icon2)
         self.Btn_cad_pacientes.setIconSize(QtCore.QSize(140, 100))
         self.Btn_cad_pacientes.setObjectName("Btn_cad_pacientes")
@@ -96,17 +105,19 @@ class Ui_menu_cadastro(object):
         self.Btn_cad_conceitos.setGeometry(QtCore.QRect(210, 280, 132, 88))
         self.Btn_cad_conceitos.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Btn_cad_conceitos.setStyleSheet("QPushButton:hover {   \n"
-"    border: 20px solid yellow;\n"
-"    background-color: yellow;\n"
+"    border: 10px solid ;\n"
+"    border-color: rgb(0, 112, 179);\n"
 "    border-radius: 45px;   \n"
 "   \n"
 "}\n"
 "QPushButton{   \n"
-"    background-color:rgb(238, 238, 236);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    border-radius: 45px;\n"
+"    border-color: rgb(255, 255, 255);\n"
 "}")
         self.Btn_cad_conceitos.setText("")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("/home/jrwolfart/projetos python jv/DESAFIO-HACKATHON/IMAGENS/cadastro_de_conceitos.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon3.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/cadastro_de_conceitos.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_cad_conceitos.setIcon(icon3)
         self.Btn_cad_conceitos.setIconSize(QtCore.QSize(120, 100))
         self.Btn_cad_conceitos.setObjectName("Btn_cad_conceitos")
@@ -115,6 +126,12 @@ class Ui_menu_cadastro(object):
         self.label_6.setAlignment(QtCore.Qt.AlignCenter)
         self.label_6.setWordWrap(True)
         self.label_6.setObjectName("label_6")
+        self.label_7 = QtWidgets.QLabel(menu_cadastro)
+        self.label_7.setGeometry(QtCore.QRect(290, 460, 231, 211))
+        self.label_7.setText("")
+        self.label_7.setPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/pngwing.com (1).png"))
+        self.label_7.setScaledContents(True)
+        self.label_7.setObjectName("label_7")
 
         self.retranslateUi(menu_cadastro)
         QtCore.QMetaObject.connectSlotsByName(menu_cadastro)

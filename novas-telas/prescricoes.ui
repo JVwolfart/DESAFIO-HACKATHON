@@ -13,13 +13,13 @@
     <x>0</x>
     <y>0</y>
     <width>1069</width>
-    <height>934</height>
+    <height>820</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>1069</width>
-    <height>934</height>
+    <height>820</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -48,7 +48,7 @@ background-color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>940</x>
-      <y>150</y>
+      <y>120</y>
       <width>101</width>
       <height>41</height>
      </rect>
@@ -81,7 +81,7 @@ border-radius: 10px;
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>110</y>
+      <y>80</y>
       <width>191</width>
       <height>41</height>
      </rect>
@@ -99,7 +99,7 @@ border: 3px solid rgb(0, 122, 194);</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>80</y>
+      <y>50</y>
       <width>171</width>
       <height>22</height>
      </rect>
@@ -115,7 +115,7 @@ border: 3px solid rgb(0, 122, 194);</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>200</y>
+      <y>170</y>
       <width>901</width>
       <height>41</height>
      </rect>
@@ -136,7 +136,7 @@ border: 3px solid rgb(0, 122, 194);</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>170</y>
+      <y>140</y>
       <width>171</width>
       <height>22</height>
      </rect>
@@ -152,7 +152,7 @@ border: 3px solid rgb(0, 122, 194);</string>
     <property name="geometry">
      <rect>
       <x>230</x>
-      <y>110</y>
+      <y>80</y>
       <width>691</width>
       <height>41</height>
      </rect>
@@ -173,7 +173,7 @@ border: 3px solid rgb(0, 122, 194);</string>
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>80</y>
+      <y>50</y>
       <width>211</width>
       <height>22</height>
      </rect>
@@ -186,9 +186,9 @@ border: 3px solid rgb(0, 122, 194);</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>260</y>
+      <y>220</y>
       <width>501</width>
-      <height>651</height>
+      <height>591</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -230,7 +230,7 @@ border: 3px solid rgb(0, 122, 194);</string>
        <x>20</x>
        <y>140</y>
        <width>465</width>
-       <height>501</height>
+       <height>441</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -333,10 +333,10 @@ color: rgb(32, 74, 135);</string>
    <widget class="QFrame" name="frame_3">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>260</y>
+      <x>530</x>
+      <y>220</y>
       <width>501</width>
-      <height>651</height>
+      <height>591</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -378,7 +378,7 @@ color: rgb(32, 74, 135);</string>
        <x>10</x>
        <y>140</y>
        <width>465</width>
-       <height>501</height>
+       <height>441</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -482,7 +482,7 @@ color: rgb(32, 74, 135);</string>
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>10</y>
+      <y>0</y>
       <width>551</width>
       <height>51</height>
      </rect>

@@ -13,13 +13,13 @@
     <x>0</x>
     <y>0</y>
     <width>1036</width>
-    <height>975</height>
+    <height>820</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>1036</width>
-    <height>975</height>
+    <height>820</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -37,7 +37,7 @@
    <bool>true</bool>
   </property>
   <property name="windowTitle">
-   <string>Prescrições de escalas para pacientes</string>
+   <string>Aferição de escalas de pacientes</string>
   </property>
   <property name="styleSheet">
    <string notr="true">
@@ -48,7 +48,7 @@ background-color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>880</x>
-      <y>180</y>
+      <y>80</y>
       <width>111</width>
       <height>41</height>
      </rect>
@@ -80,7 +80,7 @@ border-radius: 10px;
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>130</y>
+      <y>80</y>
       <width>181</width>
       <height>41</height>
      </rect>
@@ -98,7 +98,7 @@ border: 3px solid rgb(0, 122, 194);</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>100</y>
+      <y>50</y>
       <width>171</width>
       <height>22</height>
      </rect>
@@ -114,7 +114,7 @@ border: 3px solid rgb(0, 122, 194);</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>230</y>
+      <y>180</y>
       <width>831</width>
       <height>41</height>
      </rect>
@@ -135,7 +135,7 @@ border: 3px solid rgb(0, 122, 194);</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>200</y>
+      <y>150</y>
       <width>171</width>
       <height>22</height>
      </rect>
@@ -151,7 +151,7 @@ border: 3px solid rgb(0, 122, 194);</string>
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>130</y>
+      <y>80</y>
       <width>631</width>
       <height>41</height>
      </rect>
@@ -172,7 +172,7 @@ border: 3px solid rgb(0, 122, 194);</string>
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>100</y>
+      <y>50</y>
       <width>211</width>
       <height>22</height>
      </rect>
@@ -185,9 +185,9 @@ border: 3px solid rgb(0, 122, 194);</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>290</y>
+      <y>230</y>
       <width>641</width>
-      <height>661</height>
+      <height>571</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -229,7 +229,7 @@ border: 3px solid rgb(0, 122, 194);</string>
        <x>20</x>
        <y>140</y>
        <width>601</width>
-       <height>501</height>
+       <height>401</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -352,7 +352,7 @@ color: rgb(32, 74, 135);</string>
     <property name="geometry">
      <rect>
       <x>230</x>
-      <y>20</y>
+      <y>0</y>
       <width>551</width>
       <height>51</height>
      </rect>

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/menu_escalas.ui'
+# Form implementation generated from reading ui file '/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/menu_escalas.ui'
 #
 # Created by: PyQt5 UI code generator 5.14.1
 #
@@ -14,14 +14,16 @@ class Ui_menu_cadastro(object):
     def setupUi(self, menu_cadastro):
         menu_cadastro.setObjectName("menu_cadastro")
         menu_cadastro.setWindowModality(QtCore.Qt.ApplicationModal)
-        menu_cadastro.resize(639, 529)
+        menu_cadastro.resize(798, 618)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(menu_cadastro.sizePolicy().hasHeightForWidth())
         menu_cadastro.setSizePolicy(sizePolicy)
+        menu_cadastro.setMinimumSize(QtCore.QSize(798, 618))
+        menu_cadastro.setMaximumSize(QtCore.QSize(798, 618))
         menu_cadastro.setLayoutDirection(QtCore.Qt.LeftToRight)
-        menu_cadastro.setStyleSheet("background-color: rgb(52, 101, 164);")
+        menu_cadastro.setStyleSheet("background-color: rgb(255, 255, 255);")
         menu_cadastro.setInputMethodHints(QtCore.Qt.ImhMultiLine)
         self.label = QtWidgets.QLabel(menu_cadastro)
         self.label.setGeometry(QtCore.QRect(50, 170, 121, 41))
@@ -37,34 +39,39 @@ class Ui_menu_cadastro(object):
         self.Btn_braden.setGeometry(QtCore.QRect(260, 60, 132, 88))
         self.Btn_braden.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Btn_braden.setStyleSheet("QPushButton:hover {   \n"
-"    border: 20px solid yellow;\n"
-"    background-color: yellow;\n"
+"    border: 10px solid ;\n"
+"    border-color: rgb(0, 112, 179);\n"
 "    border-radius: 45px;   \n"
 "   \n"
 "}\n"
 "QPushButton{   \n"
-"    background-color:rgb(238, 238, 236);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    border-radius: 45px;\n"
+"    border-color: rgb(255, 255, 255);\n"
 "}")
         self.Btn_braden.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/escala de braden.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/escala de braden.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_braden.setIcon(icon)
-        self.Btn_braden.setIconSize(QtCore.QSize(140, 100))
+        self.Btn_braden.setIconSize(QtCore.QSize(80, 100))
         self.Btn_braden.setObjectName("Btn_braden")
         self.Btn_nhiss = QtWidgets.QPushButton(menu_cadastro)
         self.Btn_nhiss.setGeometry(QtCore.QRect(40, 60, 132, 88))
         self.Btn_nhiss.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Btn_nhiss.setStyleSheet("QPushButton:hover {   \n"
-"    border: 20px solid yellow;\n"
+"    border: 10px solid ;\n"
+"    border-color: rgb(0, 112, 179);\n"
 "    border-radius: 45px;   \n"
 "   \n"
 "}\n"
 "QPushButton{   \n"
-"    background-color:rgb(238, 238, 236);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    border-radius: 45px;\n"
+"    border-color: rgb(255, 255, 255);\n"
 "}")
         self.Btn_nhiss.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/AVC.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/AVC.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_nhiss.setIcon(icon1)
         self.Btn_nhiss.setIconSize(QtCore.QSize(120, 100))
         self.Btn_nhiss.setObjectName("Btn_nhiss")
@@ -77,17 +84,19 @@ class Ui_menu_cadastro(object):
         self.Btn_richmond.setGeometry(QtCore.QRect(260, 270, 132, 88))
         self.Btn_richmond.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Btn_richmond.setStyleSheet("QPushButton:hover {   \n"
-"    border: 20px solid yellow;\n"
-"    background-color: yellow;\n"
+"    border: 10px solid ;\n"
+"    border-color: rgb(0, 112, 179);\n"
 "    border-radius: 45px;   \n"
 "   \n"
 "}\n"
 "QPushButton{   \n"
-"    background-color:rgb(238, 238, 236);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    border-radius: 45px;\n"
+"    border-color: rgb(255, 255, 255);\n"
 "}")
         self.Btn_richmond.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/richmond.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/richmond.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_richmond.setIcon(icon2)
         self.Btn_richmond.setIconSize(QtCore.QSize(140, 100))
         self.Btn_richmond.setObjectName("Btn_richmond")
@@ -100,18 +109,21 @@ class Ui_menu_cadastro(object):
         self.Btn_ramsay.setGeometry(QtCore.QRect(40, 270, 132, 88))
         self.Btn_ramsay.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Btn_ramsay.setStyleSheet("QPushButton:hover {   \n"
-"    border: 20px solid yellow;\n"
+"    border: 10px solid ;\n"
+"    border-color: rgb(0, 112, 179);\n"
 "    border-radius: 45px;   \n"
 "   \n"
 "}\n"
 "QPushButton{   \n"
-"    background-color:rgb(238, 238, 236);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    border-radius: 45px;\n"
+"    border-color: rgb(255, 255, 255);\n"
 "}")
         self.Btn_ramsay.setText("")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/ramsay.jpeg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon3.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/ramsay.jpeg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_ramsay.setIcon(icon3)
-        self.Btn_ramsay.setIconSize(QtCore.QSize(120, 100))
+        self.Btn_ramsay.setIconSize(QtCore.QSize(80, 100))
         self.Btn_ramsay.setObjectName("Btn_ramsay")
         self.label_5 = QtWidgets.QLabel(menu_cadastro)
         self.label_5.setGeometry(QtCore.QRect(450, 170, 111, 41))
@@ -122,50 +134,60 @@ class Ui_menu_cadastro(object):
         self.Btn_glassgow.setGeometry(QtCore.QRect(440, 60, 132, 88))
         self.Btn_glassgow.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Btn_glassgow.setStyleSheet("QPushButton:hover {   \n"
-"    border: 20px solid yellow;\n"
-"    background-color: yellow;\n"
+"    border: 10px solid ;\n"
+"    border-color: rgb(0, 112, 179);\n"
 "    border-radius: 45px;   \n"
 "   \n"
 "}\n"
 "QPushButton{   \n"
-"    background-color:rgb(238, 238, 236);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    border-radius: 45px;\n"
+"    border-color: rgb(255, 255, 255);\n"
 "}")
         self.Btn_glassgow.setText("")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/glassgow.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon4.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/glassgow.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_glassgow.setIcon(icon4)
-        self.Btn_glassgow.setIconSize(QtCore.QSize(140, 100))
+        self.Btn_glassgow.setIconSize(QtCore.QSize(70, 100))
         self.Btn_glassgow.setObjectName("Btn_glassgow")
         self.Btn_dor = QtWidgets.QPushButton(menu_cadastro)
         self.Btn_dor.setGeometry(QtCore.QRect(430, 270, 132, 88))
         self.Btn_dor.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.Btn_dor.setStyleSheet("QPushButton:hover {   \n"
-"    border: 20px solid yellow;\n"
-"    background-color: yellow;\n"
+"    border: 10px solid ;\n"
+"    border-color: rgb(0, 112, 179);\n"
 "    border-radius: 45px;   \n"
 "   \n"
 "}\n"
 "QPushButton{   \n"
-"    background-color:rgb(238, 238, 236);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    border-radius: 45px;\n"
+"    border-color: rgb(255, 255, 255);\n"
 "}")
         self.Btn_dor.setText("")
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/IMAGENS/escala_de_dor.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon5.addPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/escala_de_dor.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.Btn_dor.setIcon(icon5)
-        self.Btn_dor.setIconSize(QtCore.QSize(140, 100))
+        self.Btn_dor.setIconSize(QtCore.QSize(100, 100))
         self.Btn_dor.setObjectName("Btn_dor")
         self.label_6 = QtWidgets.QLabel(menu_cadastro)
         self.label_6.setGeometry(QtCore.QRect(440, 380, 111, 41))
         self.label_6.setAlignment(QtCore.Qt.AlignCenter)
         self.label_6.setWordWrap(True)
         self.label_6.setObjectName("label_6")
+        self.label_7 = QtWidgets.QLabel(menu_cadastro)
+        self.label_7.setGeometry(QtCore.QRect(540, 370, 231, 211))
+        self.label_7.setText("")
+        self.label_7.setPixmap(QtGui.QPixmap("/home/joaovitorwolfart/Dropbox/DESAFIO HACKATHON/novas-telas/../IMAGENS/pngwing.com (1).png"))
+        self.label_7.setScaledContents(True)
+        self.label_7.setObjectName("label_7")
 
         self.retranslateUi(menu_cadastro)
         QtCore.QMetaObject.connectSlotsByName(menu_cadastro)
 
     def retranslateUi(self, menu_cadastro):
         _translate = QtCore.QCoreApplication.translate
-        menu_cadastro.setWindowTitle(_translate("menu_cadastro", "Tutoriais de Escalas"))
+        menu_cadastro.setWindowTitle(_translate("menu_cadastro", "Menu de Escalas"))
         self.label.setText(_translate("menu_cadastro", "Escala de Nhiss"))
         self.label_2.setText(_translate("menu_cadastro", "Escala de Braden"))
         self.Btn_braden.setToolTip(_translate("menu_cadastro", "Escala Braden"))
